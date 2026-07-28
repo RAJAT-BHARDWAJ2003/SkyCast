@@ -10,7 +10,7 @@ The application allows users to search weather conditions by city name or use th
 
 Add your deployed project link after hosting:
 
-**Live Demo:** https://rajat-bhardwaj2003.github.io/SkyCast/
+**Live Demo:**  https://rajat-bhardwaj2003.github.io/SkyCast/
 
 **GitHub Repository:** https://github.com/RAJAT-BHARDWAJ2003/SkyCast
 
@@ -132,16 +132,14 @@ SkyCast/
 
 ## 1. Clone the repository
 
-```bash
+
 git clone https://github.com/RAJAT-BHARDWAJ2003/SkyCast.git
-```
 
 
 ## 2. Open project folder
 
-```bash
 cd SkyCast
-```
+
 
 
 ## 3. Run the project
@@ -206,7 +204,7 @@ Responsible for:
 - Reusable application logic
 
 
----
+
 
 # Key Functionalities
 
@@ -248,36 +246,29 @@ Responsible for:
 - Optimized user experience across devices
 
 
----
 
 # Screenshots
 
 
 ## Weather Dashboard
+<img width="1920" height="1080" alt="dashboard" src="https://github.com/user-attachments/assets/ff3ebad5-f151-4a30-85fc-f2c76d3faa4f" />
 
-Add screenshot here:
-
-```html
-Paste Weather Dashboard Screenshot Here
-```
 
 
 ## Location Based Weather
-
-Add screenshot here:
-
-```html
-Paste Live Location Screenshot Here
-```
+<img width="1920" height="1080" alt="Live" src="https://github.com/user-attachments/assets/93a3799e-34f3-488e-9bbd-618699c334de" />
 
 
-## 5-Day Forecast
+## 5- days forecast
 
-Add screenshot here:
+<img width="1920" height="1080" alt="forecast" src="https://github.com/user-attachments/assets/eddf2f98-1f0e-4a94-a559-4833170d46b9" />
 
-```html
-Paste Forecast Screenshot Here
-```
+
+
+## history
+
+<img width="1920" height="1080" alt="history" src="https://github.com/user-attachments/assets/fd7c5c44-13c8-4e6b-82cf-1187f729875e" />
+
 
 
 ---
