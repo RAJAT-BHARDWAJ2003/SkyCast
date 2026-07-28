@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast App</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="light-theme">
+
+    <!-- Main App Container -->
+    <div class="app-container">
+
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo">
+                <h1>WeatherNow</h1>
+                <p>Your daily weather companion</p>
+            </div>
+
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </header>
+
+        <!-- Search Section -->
+        <section class="search-section">
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="city-input"
+                    placeholder="Search city..."
+                    aria-label="Search City"
+                />
+                <button id="search-btn" class="search-btn">
+                    Search
+                </button>
+            </div>
+
+            <button id="location-btn" class="location-btn">
+                📍 Use Current Location
+            </button>
+        </section>
+
+        <!-- Current Weather Section -->
+        <section class="current-weather">
+
+            <!-- Weather Header -->
+            <div class="weather-header">
+                <div class="location-info">
+                    <h2 id="city-name">New Delhi</h2>
+                    <p id="date-time">Sunday, 19 July 2026</p>
+                </div>
+
+                <div class="weather-condition">
+                    <img
+                        id="weather-icon"
+                        src="https://openweathermap.org/img/wn/01d@2x.png"
+                        alt="Weather Icon"
+                    />
+                    <p id="weather-description">Clear Sky</p>
+                </div>
+            </div>
+
+            <!-- Main Temperature -->
+            <div class="temperature-section">
+                <h1 id="temperature">32°C</h1>
+                <p>Feels like <span id="feels-like">35°C</span></p>
+            </div>
+
+            <!-- Weather Details Grid -->
+            <div class="weather-details">
+
+                <div class="detail-card">
+                    <span class="detail-label">Humidity</span>
+                    <span id="humidity" class="detail-value">65%</span>
+                </div>
+
+                <div class="detail-card">
+                    <span class="detail-label">Wind Speed</span>
+                    <span id="wind-speed" class="detail-value">12 km/h</span>
+                </div>
+
+                <div class="detail-card">
+                    <span class="detail-label">Pressure</span>
+                    <span id="pressure" class="detail-value">1012 hPa</span>
+                </div>
+
+                <div class="detail-card">
+                    <span class="detail-label">Visibility</span>
+                    <span id="visibility" class="detail-value">10 km</span>
+                </div>
+
+                <div class="detail-card">
+                    <span class="detail-label">Sunrise</span>
+                    <span id="sunrise" class="detail-value">05:32 AM</span>
+                </div>
+
+                <div class="detail-card">
+                    <span class="detail-label">Sunset</span>
+                    <span id="sunset" class="detail-value">07:18 PM</span>
+                </div>
+
+            </div>
+
+        </section>
+                <!-- 5-Day Forecast Section -->
+        <section class="forecast-section">
+            <div class="section-header">
+                <h2>5-Day Forecast</h2>
+            </div>
+
+            <div id="forecast-container" class="forecast-container">
+
+                <!-- Forecast Card 1 -->
+                <div class="forecast-card">
+                    <p class="forecast-day">Mon</p>
+                    <img
+                        src="https://openweathermap.org/img/wn/01d@2x.png"
+                        alt="Weather Icon"
+                    />
+                    <div class="forecast-temp">
+                        <span class="max-temp">34°C</span>
+                        <span class="min-temp">28°C</span>
+                    </div>
+                </div>
+
+                <!-- Forecast Card 2 -->
+                <div class="forecast-card">
+                    <p class="forecast-day">Tue</p>
+                    <img
+                        src="https://openweathermap.org/img/wn/02d@2x.png"
+                        alt="Weather Icon"
+                    />
+                    <div class="forecast-temp">
+                        <span class="max-temp">33°C</span>
+                        <span class="min-temp">27°C</span>
+                    </div>
+                </div>
+
+                <!-- Forecast Card 3 -->
+                <div class="forecast-card">
+                    <p class="forecast-day">Wed</p>
+                    <img
+                        src="https://openweathermap.org/img/wn/10d@2x.png"
+                        alt="Weather Icon"
+                    />
+                    <div class="forecast-temp">
+                        <span class="max-temp">31°C</span>
+                        <span class="min-temp">26°C</span>
+                    </div>
+                </div>
+
+                <!-- Forecast Card 4 -->
+                <div class="forecast-card">
+                    <p class="forecast-day">Thu</p>
+                    <img
+                        src="https://openweathermap.org/img/wn/04d@2x.png"
+                        alt="Weather Icon"
+                    />
+                    <div class="forecast-temp">
+                        <span class="max-temp">30°C</span>
+                        <span class="min-temp">25°C</span>
+                    </div>
+                </div>
+
+                <!-- Forecast Card 5 -->
+                <div class="forecast-card">
+                    <p class="forecast-day">Fri</p>
+                    <img
+                        src="https://openweathermap.org/img/wn/03d@2x.png"
+                        alt="Weather Icon"
+                    />
+                    <div class="forecast-temp">
+                        <span class="max-temp">32°C</span>
+                        <span class="min-temp">26°C</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Recent Searches Section -->
+        <section class="recent-searches">
+            <div class="section-header">
+                <h2>Recent Searches</h2>
+            </div>
+
+            <div id="recent-searches-container" class="recent-searches-container">
+                <button class="recent-city">Delhi</button>
+                <button class="recent-city">Mumbai</button>
+                <button class="recent-city">Bangalore</button>
+            </div>
+        </section>
+
+        <!-- Loading Spinner -->
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Fetching weather data...</p>
+        </div>
+
+        <!-- Error Message -->
+        <div id="error-message" class="error-message hidden">
+            <p>City not found. Please try again.</p>
+        </div>
+
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/utils.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
