@@ -318,7 +318,7 @@ https://github.com/RAJAT-BHARDWAJ2003
 
 LinkedIn:
 
-https://linkedin.com/in/your-linkedin
+linkedin.com/in/rajat-bhardwaj2003
 
 
 ---
@@ -326,4 +326,4 @@ https://linkedin.com/in/your-linkedin
 # License
 
 
-This project is open source and available under the **MIT License**.
+This project is open source and available under the **MIT License**(LICENSE)
